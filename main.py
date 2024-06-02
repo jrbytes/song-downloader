@@ -19,7 +19,10 @@ def main():
         line = data.readline()
         while line:
             line_url = line.strip()
-            download_audio(line_url)
+            if line_url == '':
+                line = data.readline()
+                continue
+            download_audio(line_url)    
             line = data.readline()
-    
+
 main()
