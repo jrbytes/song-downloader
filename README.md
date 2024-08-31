@@ -4,6 +4,7 @@
 
 ```bash
 python -m virtualenv venv
+python3 -m venv <nome-ambiente> # ubuntu 24.04, before install python-pip and python3-venv
 source venv/bin/activate # for linux
 venv\Scripts\activate # for windows
 ```
