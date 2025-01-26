@@ -27,3 +27,9 @@ https://www.youtube.com/watch?v=...
 ```bash
 python -m main
 ```
+
+5 Get Packages Versions with Freeze
+
+```bash
+pip freeze > requirements.txt
+```
